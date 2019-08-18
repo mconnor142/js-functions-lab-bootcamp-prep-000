@@ -14,3 +14,5 @@ happyHolidayTo = (holiday, name) => {
 holidayCountdown = (holiday, days) => {
   return `It's ${days} days until ${holiday}!`;
 }
+
+console.log(holidayCountdown('Christmas', '25'))
